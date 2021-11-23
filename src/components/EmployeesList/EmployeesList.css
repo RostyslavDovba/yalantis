@@ -1,0 +1,37 @@
+.employees {
+  width: 70%;
+}
+
+.employees-title {
+  text-align: left;
+}
+.list-wr {
+  display: flex;
+  overflow-x: scroll;
+  height: 500px;
+}
+
+.category {
+  text-align: start;
+  margin-right: 30px;
+}
+.category-letter {
+  margin-bottom: 10px;
+}
+.category-people {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.person {
+  margin-bottom: 20px;
+}
+.person-name {
+  white-space: pre;
+}
+
+.d-flex {
+  display: flex;
+}

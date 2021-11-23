@@ -1,0 +1,14 @@
+.person-birthday {
+  padding-left: 15px;
+  position: relative;
+}
+.person-birthday::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 50%;
+  background-color: #000;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+}
