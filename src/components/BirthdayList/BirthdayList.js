@@ -29,7 +29,7 @@ const BirthdayList = () => {
     <div className="birthday-list-wr">
       <h2>Employees birthday</h2>
       <div className="birthday-list-wr">
-        {mothsFromToday && mothsFromToday.length ? (
+        {mothsFromToday && birthdayList.length ? (
           mothsFromToday.map((el, index) => {
             const mothBirthdays =
               birthdayList &&
@@ -37,6 +37,7 @@ const BirthdayList = () => {
                 (birthday) =>
                   monthNames[new Date(birthday.dob).getMonth()] === el
               );
+
             return (
               <div className="category-month" key={`${el}_${index}`}>
                 <div className="month-name">{el}</div>
